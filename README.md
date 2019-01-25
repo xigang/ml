@@ -26,7 +26,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import tensorflow as tf
 >>> hello = tf.constant("Hello TensorFlow!")
 >>> sess = tf.Session()
-2019-01-25 07:32:53.678952: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
 >>> print(sess.run(hello))
 Hello TensorFlow!
 >>>
